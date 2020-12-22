@@ -1,0 +1,11 @@
+增加程式碼
+git add .
+git commit -m [你修改了什麼]
+git push
+
+增加分支
+git push --set-upstream origin newBranch
+git checkout -b "分支的名字"
+
+專案炸掉，回復原版本
+git reset --hard HEAD
